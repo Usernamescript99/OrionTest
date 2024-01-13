@@ -1,0 +1,21 @@
+ --Loads
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+--Main
+local Window = OrionLib:MakeWindow({Name = "SASUGAY HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "VOCEEGAY",IntroText = "SASUGAY HUB"})
+ 
+
+local Tab = Window:MakeTab({
+	Name = "Tab 1",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+ Tab:AddButton({
+	Name = "Auto Farm",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+  	end    
+})
+
+ 
